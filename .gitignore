@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Environment / secrets
+.env
+*.env
+
+# Model weights and data (too large for git)
+sentiment_bert_model_best/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.csv
+
+# OS / editor
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
